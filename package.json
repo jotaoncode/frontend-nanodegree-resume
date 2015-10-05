@@ -1,0 +1,15 @@
+{
+  "name": "Nanodegree",
+  "version": "0.0.1",
+  "description": "Project 2",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "doxx": "^1.2.6"
+  },
+  "scripts": {
+    "generate-doc": "./node_modules/doxx/bin/doxx -s ./js -T docs"
+  }
+}
