@@ -9,6 +9,9 @@
   "devDependencies": {
     "doxx": "^1.2.6"
   },
+  "dependencies": {
+    "moment": "^2.10.6"
+  },
   "scripts": {
     "generate-doc": "./node_modules/doxx/bin/doxx -s ./js -T docs"
   }
